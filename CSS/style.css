@@ -28,7 +28,7 @@ h1{
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #74b9ff;
+    border: 2px solid #000000;
 
 }   
 .mb-3{
@@ -51,7 +51,7 @@ h1{
     transform: scale(1.05);
 }
 body{
-    background-color: #83c9ff;
+    background-color: #0984e3;
     color: #333;
 }
 form{
@@ -61,7 +61,7 @@ form{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .navbar navbar-expand-sm navbar-dark bg-primary{
-    background-color: #0984e3;
+    background-color: #000000;
     padding: 10px 20px;
 }
 .navbar-brand{
@@ -85,7 +85,7 @@ form{
     text-decoration: none;
 }
 .navbar-nav .nav-item .nav-link:hover{
-    color: #74b9ff;
+    color: #000000;
 }
 .colapse navbar-collapse{
     display: flex;
