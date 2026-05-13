@@ -38,20 +38,20 @@ h1{
 .form-check{
     width: 50%;
     margin: auto;
-    
+
 }
 .btn-primary{
     width: 100%;
-    background: linear-gradient(45deg, #6b00b8, #4f00ce);
+    background-color: #84bbe4;
     border: none;
     transition: all 0.3s ease;
 }
 .btn-primary:hover{
-    background: linear-gradient(45deg, #4304ba, #9655ff);
+    background-color: #0428ba;
     transform: scale(1.05);
 }
 body{
-    background: linear-gradient(135deg, #dfc2edb7 0%, #9f56c1 100%);
+    background-color: #83c9ff;
     color: #333;
 }
 form{
@@ -59,4 +59,35 @@ form{
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.navbar navbar-expand-sm navbar-dark bg-primary{
+    background-color: #0984e3;
+    padding: 10px 20px;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navbar-nav .nav-item .nav-sobre{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navbar-nav .nav-item .nav-contato{
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #74b9ff;
+}
+.colapse navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
 }
