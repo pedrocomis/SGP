@@ -68,6 +68,7 @@ form{
     font-size: 1.5rem;
     color: #fff;
     text-decoration: none;
+    
 }
 .navbar-nav .nav-item .nav-link{
     color: #fff;
@@ -86,8 +87,18 @@ form{
 }
 .navbar-nav .nav-item .nav-link:hover{
     color: #000000;
+    text-align: center;
 }
 .colapse navbar-collapse{
     display: flex;
     justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+   .collapsibleNavId{ 
+
+  position: absolute;
+  left: 50%;
+    transform: translateX(-50%);
+}
 }
